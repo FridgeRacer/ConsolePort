@@ -51,10 +51,27 @@ db('Gamepad/Index/Icons', {
 		Options  = 'XBOX_C_OPTIONS';
 		Forward  = 'XBOX_C_FORWARD';
 	};
+	Switch = {
+		A        = 'SWITCH_R_A';
+		B        = 'SWITCH_R_B';
+		X        = 'SWITCH_R_X';
+		Y        = 'SWITCH_R_Y';
+		L        = 'SWITCH_S_L';
+		ZL       = 'SWITCH_S_ZL';
+		R        = 'SWITCH_S_R';
+		ZR       = 'SWITCH_S_ZR';
+		LSB      = 'SWITCH_S_LSB';
+		RSB      = 'SWITCH_S_RSB';
+		Minus    = 'SWITCH_C_MINUS';
+		Capture  = 'SWITCH_C_CAPTURE';
+		Home     = 'SWITCH_C_HOME';
+		Plus     = 'SWITCH_C_PLUS';
+	};	
 })
 
 db('Gamepad/Index/Splash', {
 	['PlayStation 4'] = 'DS4';
 	['PlayStation 5'] = 'DS5';
 	['Xbox'] = 'Xbox';
+	['Switch'] = 'ProCon';
 })

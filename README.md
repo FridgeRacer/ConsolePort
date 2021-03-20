@@ -1,4 +1,8 @@
 # ConsolePort
+<h2>What's this fork for?</h2>
+This is simply an attempt to add support for the Nintendo Switch Pro Controller, and by effect support for combined Joy-Cons.
+Currently the goal is to integrate the Switch Pro Controller into the UI neatly. Regardless, the user will have to use the controller through an <a href="https://www.8bitdo.com/wireless-usb-adapter/" target="_blank">8BitDo Wireless USB Adapter</a> or via USB with <a href="https://github.com/Davidobot/BetterJoy" target="_blank">BetterJoy</a> to actually use the controller.
+
 <h2>Game Controller Addon for World of Warcraft</h2>
 <img src="https://raw.githubusercontent.com/seblindfors/ConsolePort/master/Wiki/header.png"/>
 
