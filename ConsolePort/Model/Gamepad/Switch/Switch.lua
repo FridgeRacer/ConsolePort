@@ -41,7 +41,7 @@ select(2, ...).Gamepad:AddGamepad({
 			PADFORWARD  = 'Switch/Plus';
 			PADBACK     = 'Switch/Minus';
 			--PADSYSTEM
-			PADSOCIAL   = 'Switch/Capture';
+			--PADSOCIAL
 		};
 		Layout = {
 			PADLTRIGGER  = 0x11;
@@ -58,10 +58,10 @@ select(2, ...).Gamepad:AddGamepad({
 			PADRTRIGGER	 = 0x21;
 			PADRSHOULDER = 0x22;
 			--------------------
-			PAD4		 = 0x26;
-			PAD2         = 0x25;
-			PAD1         = 0x24;
-			PAD3         = 0x23;
+			PAD4		 = 0x23;
+			PAD2         = 0x24;
+			PAD1         = 0x25;
+			PAD3         = 0x26;
 			--------------------
 			PADRSTICK    = 0x27;
 			PADFORWARD   = 0x28;
@@ -163,10 +163,9 @@ select(2, ...).Gamepad:AddGamepad({
 		};
 	};
 	Config = {
-		name = 'Switch';
+		name = 'Xbox';
 		configID = {
-			vendorID = 1406;
-			productID = 8201;
+			vendorID = 1118;
 		};
 	};
 })

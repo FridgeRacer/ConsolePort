@@ -63,8 +63,6 @@ db('Gamepad/Index/Icons', {
 		LSB      = 'SWITCH_S_LSB';
 		RSB      = 'SWITCH_S_RSB';
 		Minus    = 'SWITCH_C_MINUS';
-		Capture  = 'SWITCH_C_CAPTURE';
-		Home     = 'SWITCH_C_HOME';
 		Plus     = 'SWITCH_C_PLUS';
 	};	
 })
