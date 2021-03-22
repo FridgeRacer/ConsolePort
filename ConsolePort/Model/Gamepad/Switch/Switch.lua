@@ -58,10 +58,10 @@ select(2, ...).Gamepad:AddGamepad({
 			PADRTRIGGER	 = 0x21;
 			PADRSHOULDER = 0x22;
 			--------------------
-			PAD4		 = 0x23;
-			PAD2         = 0x24;
-			PAD1         = 0x25;
-			PAD3         = 0x26;
+			PAD4		 = 0x26;
+			PAD2         = 0x25;
+			PAD1         = 0x24;
+			PAD3         = 0x23;
 			--------------------
 			PADRSTICK    = 0x27;
 			PADFORWARD   = 0x28;
@@ -163,9 +163,9 @@ select(2, ...).Gamepad:AddGamepad({
 		};
 	};
 	Config = {
-		name = 'Xbox';
+		name = 'Switch';
 		configID = {
-			vendorID = 1118;
+			vendorID = 1406;
 		};
 	};
 })
